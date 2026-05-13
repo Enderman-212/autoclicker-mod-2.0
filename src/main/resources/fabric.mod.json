@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "autoclicker",
+  "version": "1.0.0",
+  "name": "AutoClicker",
+  "description": "CapsLock-triggered autoclicker. Single tap = left-click (entity-only, 20 CPS). Double-tap = right-click (20 CPS).",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.autoclicker.mod.AutoClickModInit"
+    ],
+    "client": [
+      "com.autoclicker.mod.AutoClickMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
